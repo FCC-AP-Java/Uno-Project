@@ -8,8 +8,8 @@ public class UnoCard
 
   public UnoCard()
   {
-    number = (int)(Math.random()*9) + 1;
-    int randColor = (int)(Math.random()*3);
+    number = (int)(Math.random() * 9) + 1;
+    int randColor = (int)(Math.random() * 3);
     if (randColor == 0)
     {
       color = "R";
